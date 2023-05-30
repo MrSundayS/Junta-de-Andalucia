@@ -58,3 +58,18 @@
     outline: none;
     cursor: pointer;
   }
+
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto;
+  }
+  
+  .carousel .carousel-inner img {
+    object-fit: cover;
+    width: 100%;
+    height: 700px; /* Ajusta la altura según tus necesidades */
+  }
+  
